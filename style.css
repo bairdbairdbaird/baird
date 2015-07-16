@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: "Proxima Nova";
-    src: url("../fonts/proximanova-regular-webfont.woff");
+    src: url("proximanova-regular-webfont.woff");
 }
 
 body {
 	background-color: white;
 	color: #444;
-	font-family: Proxima Nova, Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	line-height: 1rem;
+	font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 160%;
 }
 
 h1 {
@@ -21,9 +21,21 @@ p {
 	color: #414042;
 }
 
+a {
+	color: #444;
+	text-decoration: none;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #529ecc;
+}
+
+a:hover {
+	color: #529ecc;
+}
+
 div.contain {
 	margin: 0 auto;
-	max-width: 500px;
+	max-width: 400px;
 	text-align: center;
+	padding: 15px;
 }
 

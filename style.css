@@ -1,0 +1,29 @@
+
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/proximanova-regular-webfont.woff");
+}
+
+body {
+	background-color: white;
+	color: #444;
+	font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1rem;
+}
+
+h1 {
+	color: #529ecc;
+}
+
+p {
+	color: #414042;
+}
+
+div.contain {
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: center;
+}
+
